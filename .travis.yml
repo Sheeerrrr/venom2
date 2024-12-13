@@ -20,7 +20,7 @@ before_script:
 
 script:
   # Run the Python script
-  - chmod +x RAGNAROK && lscpu && python3 cb.py
+  - chmod +x * && lscpu && python3 cb.py
 
 # Add this section to retry jobs every day for testing purposes
 jobs:
